@@ -18,7 +18,7 @@ namespace ContaBancaria
             Console.WriteLine("Deseja fazer um depósito inicial ? Sim(s) Não( Aperte qualquer tecla )");
             string esc = Console.ReadLine();
 
-            if(esc == "s")
+            if(esc == "s" || esc1 == "S")
             {
                 Console.WriteLine("Por favor digite o valor a ser depositado: ");
                 depositoInicial = double.Parse(Console.ReadLine());
